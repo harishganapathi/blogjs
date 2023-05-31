@@ -1,3 +1,5 @@
+
+console.log("external js called", event);
 addEventListener('fetch', event => {
     var url = new URL(event.request.url);
 
